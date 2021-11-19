@@ -14,27 +14,12 @@ public class CheckGuest {
 				"Francesco Totti", "Ilary Blasi", "Bebe Vio", "Luis", "Pardis Zarei", 
 				"Martina Maccherone", "Rachel Zeilic"};
 		
-		/*
-		 * guest list - print test
-		 * System.out.println("Lista invitati: ");
-		
-		for(int i = 0; i < guests.length; i++) {
-			System.out.println(guests[i]);
-			}
-		 */
-		
 		
 		boolean trovato = false;
 		
 		System.out.println("Inserire nome utente: ");
 		String yourName = scanner.nextLine();
-		//System.out.println(yourName);
-		
 
-			
-		for (int i = 0; i < guests.length; i++) {
-			//System.out.println(guests[i] + " ");
-		}
 			
 		for (int n = 0; n < guests.length; n++) {
 			if (yourName.equals(guests[n])) {
